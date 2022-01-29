@@ -29,9 +29,11 @@ ul, li, a {
 .topnav-logo {
   font-size: 24px;
   font-weight: 800;
+  border-radius: 30%;
 }
 .topnav-logo li a {
-  color: #f9faf8;
+  /* color: #f9faf8; */
+  color: #1f2937;
 }
 .topnav-right {
   display: flex;
@@ -48,29 +50,29 @@ ul, li, a {
 /* Intro */
 .intro {
   background-color: #1f2937;
-  padding: 70px 100px;
+  padding: 50px 100px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 30px;
 }
 .intro-text {
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 .intro-text-title {
-    margin: 0;
-    font-size: 48px;
-    font-weight: 900;
-    color: #f9faf8;
-    margin-bottom: 5px;
+  margin: 0;
+  font-size: 48px;
+  font-weight: 900;
+  color: #f9faf8;
+  margin-bottom: 5px;
 }
 .intro-text-subtext {
-    font-size: 18px;
-    color: #e5e7eb;
-    margin-top: 5px;
+  font-size: 18px;
+  color: #e5e7eb;
+  margin-top: 5px;
 }
 .button {
   width: 100px;
@@ -80,8 +82,6 @@ ul, li, a {
   color: #e5e7eb;
   border-radius: 10px;
 }
-.intro-image {
-}
 .intro-image img {
   width: 400px;
   height: 230px;
@@ -89,15 +89,16 @@ ul, li, a {
 }
 /* Feature */
 .feature {
-  padding: 70px 150px;
+  padding: 50px 100px;
 }
 .feature-title {
   text-align: center;
   font-size: 36px;
   font-weight: 900;
   color: #1f2937;
-}
-.feature-choice-wrap {
+  margin: 0;
+  padding: 0 100px;
+  padding-bottom: 50px;
 }
 .feature-choice-row {
   display: flex;
@@ -119,6 +120,7 @@ ul, li, a {
   font-size: 36px;
   padding: 50px 150px;
   padding-bottom: 0;
+  margin: 0;
 }
 .quote-user {
   text-align: right;
